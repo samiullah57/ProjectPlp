@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T13:45:26 IST" name="Suite1" finished-at="2024-11-27T13:45:33 IST" duration-ms="7536">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-27T13:45:26 IST" name="Test" finished-at="2024-11-27T13:45:33 IST" duration-ms="7536">
+      <class name="com.philips.runner.RunCukesTest">
+        <test-method is-config="true" signature="initFramework()[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" started-at="2024-11-27T13:45:15 IST" name="initFramework" finished-at="2024-11-27T13:45:26 IST" duration-ms="11079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" started-at="2024-11-27T13:45:26 IST" name="setUpClass" finished-at="2024-11-27T13:45:26 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" started-at="2024-11-27T13:45:26 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-11-27T13:45:33 IST" duration-ms="6090" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phase1 Pipeline1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 128.0.6613.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTIN354330', ip: '192.168.127.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: GetHandleVerifier [0x00007FF64D12B645+29573]
+(No symbol) [0x00007FF64D0A0470]
+(No symbol) [0x00007FF64CF5B6EA]
+(No symbol) [0x00007FF64CF9DF67]
+(No symbol) [0x00007FF64CF9CFFB]
+(No symbol) [0x00007FF64CF97B1E]
+(No symbol) [0x00007FF64CF9268E]
+(No symbol) [0x00007FF64CFE30F0]
+(No symbol) [0x00007FF64CFE2780]
+(No symbol) [0x00007FF64CFD70A3]
+(No symbol) [0x00007FF64CFA12DF]
+(No symbol) [0x00007FF64CFA2441]
+GetHandleVerifier [0x00007FF64D45C58D+3375821]
+GetHandleVerifier [0x00007FF64D4A7987+3684039]
+GetHandleVerifier [0x00007FF64D49CDAB+3640043]
+GetHandleVerifier [0x00007FF64D1EB7C6+816390]
+(No symbol) [0x00007FF64D0AB77F]
+(No symbol) [0x00007FF64D0A75A4]
+(No symbol) [0x00007FF64D0A7740]
+(No symbol) [0x00007FF64D09659F]
+BaseThreadInitThunk [0x00007FFDF454257D+29]
+RtlUserThreadStart [0x00007FFDF5AAAF08+40]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 128.0.6613.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTIN354330', ip: '192.168.127.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: GetHandleVerifier [0x00007FF64D12B645+29573]
+(No symbol) [0x00007FF64D0A0470]
+(No symbol) [0x00007FF64CF5B6EA]
+(No symbol) [0x00007FF64CF9DF67]
+(No symbol) [0x00007FF64CF9CFFB]
+(No symbol) [0x00007FF64CF97B1E]
+(No symbol) [0x00007FF64CF9268E]
+(No symbol) [0x00007FF64CFE30F0]
+(No symbol) [0x00007FF64CFE2780]
+(No symbol) [0x00007FF64CFD70A3]
+(No symbol) [0x00007FF64CFA12DF]
+(No symbol) [0x00007FF64CFA2441]
+GetHandleVerifier [0x00007FF64D45C58D+3375821]
+GetHandleVerifier [0x00007FF64D4A7987+3684039]
+GetHandleVerifier [0x00007FF64D49CDAB+3640043]
+GetHandleVerifier [0x00007FF64D1EB7C6+816390]
+(No symbol) [0x00007FF64D0AB77F]
+(No symbol) [0x00007FF64D0A75A4]
+(No symbol) [0x00007FF64D0A7740]
+(No symbol) [0x00007FF64D09659F]
+BaseThreadInitThunk [0x00007FFDF454257D+29]
+RtlUserThreadStart [0x00007FFDF5AAAF08+40]
+
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 128.0.6613.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTIN354330', ip: '192.168.127.43', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: GetHandleVerifier [0x00007FF64D12B645+29573]
+(No symbol) [0x00007FF64D0A0470]
+(No symbol) [0x00007FF64CF5B6EA]
+(No symbol) [0x00007FF64CF9DF67]
+(No symbol) [0x00007FF64CF9CFFB]
+(No symbol) [0x00007FF64CF97B1E]
+(No symbol) [0x00007FF64CF9268E]
+(No symbol) [0x00007FF64CFE30F0]
+(No symbol) [0x00007FF64CFE2780]
+(No symbol) [0x00007FF64CFD70A3]
+(No symbol) [0x00007FF64CFA12DF]
+(No symbol) [0x00007FF64CFA2441]
+GetHandleVerifier [0x00007FF64D45C58D+3375821]
+GetHandleVerifier [0x00007FF64D4A7987+3684039]
+GetHandleVerifier [0x00007FF64D49CDAB+3640043]
+GetHandleVerifier [0x00007FF64D1EB7C6+816390]
+(No symbol) [0x00007FF64D0AB77F]
+(No symbol) [0x00007FF64D0A75A4]
+(No symbol) [0x00007FF64D0A7740]
+(No symbol) [0x00007FF64D09659F]
+BaseThreadInitThunk [0x00007FFDF454257D+29]
+RtlUserThreadStart [0x00007FFDF5AAAF08+40]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at com.philips.generic.BrowserFactory.getDriverInstance(BrowserFactory.java:40)
+at com.philips.stepdefinitions.Hooks.beforemethod(Hooks.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at cucumber.runtime.Utils$1.call(Utils.java:40)
+at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+at cucumber.runtime.Utils.invoke(Utils.java:34)
+at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+... 19 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" started-at="2024-11-27T13:45:33 IST" name="tearDownClass" finished-at="2024-11-27T13:45:33 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.philips.runner.RunCukesTest@730d2164]" started-at="2024-11-27T13:45:33 IST" name="TearDown" finished-at="2024-11-27T13:45:33 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.philips.runner.RunCukesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

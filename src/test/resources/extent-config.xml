@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <documentTitle>Automation Execution Report</documentTitle>
+        <reportName>NPI2CASH Report</reportName>
+        <reportHeadline>Testing</reportHeadline>
+    </configuration>
+</extentreports>

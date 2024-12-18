@@ -1,0 +1,25 @@
+trigger:
+- CleanupBranch
+
+jobs:
+  - job: Req2ResBDD
+    timeoutInMinutes: 0
+    pool:
+      name: 4.0-Enabling-HPGM-R2R-BDD
+    steps:
+      - script: |
+          echo Starting the build
+          mvn test
+          displayName: 'Build with Maven'
+          
+      - task: CopyFiles@2
+        condition: always()
+        inputs:
+                contents: 'output/**'
+                targetFolder: $(Build.ArtifactStagingDirectory)
+
+      - task: PublishBuildArtifacts@1
+        condition: always()
+        inputs:
+            pathToPublish: $(Build.ArtifactStagingDirectory)
+            artifactName: ExecutionResults

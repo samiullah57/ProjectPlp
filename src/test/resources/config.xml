@@ -1,0 +1,369 @@
+<Environments>
+	<Environment name="MQ3">
+
+		<!-- <Parameter key="SAPUserName" value="320101159" /> <Parameter key="SAPPassword" 
+			value="R29rdUA5OTk=" /> <Parameter key="SAPUserName" value="320103198" /> 
+			<Parameter key="SAPPassword" value="TVEzJGFjY291bnQ=" /> -->
+			
+			<Parameter key="SAPUserName" value="320104367" /> 
+			<Parameter key="SAPPassword" value="R29rdUAxMzU=" />
+			 
+			 <Parameter key="ResourcePlannerUser" value="Test Resourse Planner NAM" /> 
+			<Parameter key="PlannerUsername" value="test.resourceplanner.nam@philips.com.emsmq3" />
+			<Parameter key="PlannerPassword" value="Tunic8Vedda%" />
+		
+		<!--<Parameter key="SAPUserName" value="320101489" />
+		    <Parameter key="SAPPassword" value="S2hhcmFuQDdh" /> -->
+
+		<!--<Parameter key="SAPUserName" value="320101489" />
+		<Parameter key="SAPPassword" value="S2hhcmFuQDdh" />-->
+
+		<Parameter key="salesforceUrl"
+			value="https://test.salesforce.com/" />
+
+		<Parameter key="ITOpAdmin User"
+			value="Automation ITOp Admin" />
+		<Parameter key="ITOpAdmin"
+			value="automation.itopadmin@philips.com.mq3" />
+		<Parameter key="ITOpAdminPassword" value="U29uYXRhQDIzNDU=" />
+
+		<Parameter key="MasterDataAdmin User"
+			value="Automation MasterDataAdmin" />
+		<Parameter key="MasterDataAdmin"
+			value="automation.masterdataadmin@philips.com.mq3" />
+		<Parameter key="MasterDataAdminPassword"
+			value="TWluZHRyZWVAMWM=" />
+
+		<Parameter key="ServiceAgent User"
+			value="Automation Agent MQ3" />
+		<Parameter key="ServiceAgent"
+			value="test.resourceplanner.nam@philips.com.emsmq3" />
+		<!--<Parameter key="ServiceAgent" value="tanveer.serviceagent@mq3.com" 
+			/> -->
+		<Parameter key="ServiceAgentPassword"
+			value="Tunic8Vedda%" />
+
+		<Parameter key="Agent User" value="Agent User" />
+		<Parameter key="AgentUserID" value="agentuser@philips.com" />
+		<Parameter key="AgentUserPassword" value="UGhpbGlwc0AzNDU=" />
+
+		<Parameter key="Hybris User" value="Hybris User" />
+		<Parameter key="Hybris Username"
+			value="partner.velkuru.sruthi@philips.com" />
+		<Parameter key="HybrisPassword" value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="HybrisAgent User" value="HybrisAgent User" />
+		<Parameter key="HybrisAgentUserID"
+			value="partner.velkuru.sruthi@philips.com" />
+		<Parameter key="HybrisAgentUserPassword"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="ServiceTechnician User"
+			value="Automation Service Technician MQ3" />
+		<Parameter key="ServiceTechnician"
+			value="automation.servicetechnician@philips.com.mq3" />
+		<Parameter key="ServiceTechnicianPassword"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Quote Admin" value="Automation Quote Admin" />
+		<Parameter key="QuoteAdmin"
+			value="test.resourceplanner.nam@philips.com.emsmq3" />
+		<Parameter key="QuoteAdminPwd" value="Tunic8Vedda%" />
+
+		<Parameter key="ServiceAgentNew User"
+			value="Lejo ServiceAgent" />
+		<Parameter key="ServiceAgentNew"
+			value="agentnew.lejo.emsmq3@philips.com" />
+		<Parameter key="ServiceAgentNewPassword"
+			value="QWN0aXZpdHlAMTIz" />
+
+		<Parameter key="L1 Technician User" value="L1 Technician" />
+		<Parameter key="L1Technician"
+			value="l1.technician@philips.com" />
+		<Parameter key="L1TechnicianPassword"
+			value="U29uYXRhQDIzNDU=" />
+
+		<Parameter key="L2Technician User" value="L2 Technician" />
+		<Parameter key="L2Technician"
+			value="l2.technician@philips.com" />
+		<Parameter key="L2TechnicianPassword"
+			value="U29uYXRhQDIzNDU=" />
+
+		<Parameter key="Meena service user" value="Meena Tech1" />
+		<Parameter key="Meenaserviceuser"
+			value="partner.meena.su@philips.com.mq3" />
+		<Parameter key="MeenaServicepwd" value="U29uYXRhQDEyMzQ=" />
+
+		<Parameter key="Meena1 service user" value="Meena Tech2" />
+		<Parameter key="Meena1serviceuser"
+			value="partner.meena.su2@philips.com.mq3" />
+		<Parameter key="Meena1Servicepwd" value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="Custom Agent User" value="Custom Agent" />
+		<Parameter key="CustomAgent"
+			value="test.oneems.agent@philips.com.emsmq3" />
+		<Parameter key="CustomAgentPassword"
+			value="Split3Frist%" />
+
+		<Parameter key="Custom RSE User" value="Custom Agent" />
+		<Parameter key="CustomRSE" value="test.oneems.rse2@philips.com.emsmq3" />
+		<Parameter key="CustomRSEPassword" value="Split3Frist%" />
+
+
+		<Parameter key="Custom RSE L1" value="Custom RSE L1" />
+		<Parameter key="CustomRSEL1"
+			value="automation.rse.l1@philips.com" />
+		<Parameter key="CustomRSEPasswordL1"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Custom RSE L2" value="Custom RSE L2" />
+		<Parameter key="CustomRSEL2"
+			value="automation.rse.l2@philips.com" />
+		<Parameter key="CustomRSEPasswordL2"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Custom RSE L3" value="Custom RSE L3" />
+		<Parameter key="CustomRSEL3"
+			value="automation.rse.l3@philips.com" />
+		<Parameter key="CustomRSEPasswordL3"
+			value="UGhpbGlwc0AxMjM=" />
+
+
+		<Parameter key="Custom HISS Gen" value="Custom HISS Gen" />
+		<Parameter key="CustomHIss"
+			value="manikanta.mq3.HISSGen@philips.com" />
+		<Parameter key="CustomHISSPassword" value="V2VsY29tZUAyMDIx" />
+
+		<Parameter key="Custom HISS L1" value="Custom HISS L2" />
+		<Parameter key="CustomHISSL1"
+			value="manikanta.mq3.hissl1@philips.com" />
+		<Parameter key="CustomHISSPasswordL1"
+			value="V2VsY29tZUAxMjM=" />
+
+		<Parameter key="Custom HISS L2" value="Custom HISS L2" />
+		<Parameter key="CustomHISSL2"
+			value="manikanta.hissl2@philips.com" />
+		<Parameter key="CustomHISSPasswordL2"
+			value="V2VsY29tZUAxMjM=" />
+
+		<Parameter key="Custom HISS L3" value="Custom HISS L3" />
+		<Parameter key="CustomHISSL3"
+			value="maniakanta.hissl3@philips.com" />
+		<Parameter key="CustomHISSPasswordL3"
+			value="V2VsY29tZUAxMjM=" />
+
+
+		<Parameter key="Service BGPersonneluser"
+			value="Automation BGPersonneluser" />
+		<Parameter key="BGPersonneluser"
+			value="skmarketbg@philips.com.mq3" />
+		<Parameter key="BGPersonnelPwd" value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="EIMUser" value="EIMUser" />
+		<Parameter key="EIMUserID" value="autoeim@philips.com" />
+		<Parameter key="EIMUserPassword" value="SW5kaWFAMjM0" />
+
+		<Parameter key="EIMHR" value="EIMHR" />
+		<Parameter key="EIMHRID" value="autoeimhr@philips.com" />
+		<Parameter key="EIMHRPassword" value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="EIMCustomer" value="EIMCustomer" />
+		<Parameter key="EIMCustomerID"
+			value="autoeimcust@philips.com" />
+		<Parameter key="EIMCustomerPassword"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="EIMVendor" value="EIMVendor" />
+		<Parameter key="EIMVendorID"
+			value="autoeimvendor@philips.com" />
+		<Parameter key="EIMVendorPassword" value="SW5kaWFAMjM0" />
+
+		<Parameter key="BG FCO" value="Automation BG FCO" />
+		<Parameter key="BGFCOID"
+			value="automation.bgfco@philips.com" />
+		<Parameter key="BGFCOPassword" value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Distributor user"
+			value="Distributor Slovakia" />
+		<Parameter key="DistributorUserID"
+			value="dist.slovakia@philips.com" />
+		<Parameter key="DistributorUserPassword"
+			value="UGFzc3dvcmRAMTIzNA==" />
+
+		<Parameter key="ServiceTechnicianUser2"
+			value="Automation Service Technician MQ3" />
+		<Parameter key="ServiceTechnician2"
+			value="automation.servicetechnician@philips.com.mq3" />
+		<Parameter key="ServiceTechnicianPassword2"
+			value="SW5kaWFAMjM0" />
+
+		<Parameter key="R2Rautomationtech"
+			value="Automation Technician" />
+		<Parameter key="R2RuserName"
+			value="autoamtiontechnician@philips.com" />
+		<Parameter key="R2Rpassword" value="TWluZHRyZWVAMWM=" />
+
+		<Parameter key="R2Rautomationtech1" value="Automation Agent" />
+		<Parameter key="R2RAgentuserName"
+			value="automationagent@philips.com" />
+		<Parameter key="R2RAgentpassword" value="TWluZHRyZWVAMmE=" />
+
+		<!-- <Parameter key="SAPUserName" value="320104367" /> <Parameter key="SAPPassword" 
+			value="VGFudmVlckAxMg=="/> -->
+
+		<Parameter key="ServiceFCOAdmin User"
+			value="ServiceFCOAdmin " />
+		<Parameter key="ServiceFCOAdmin"
+			value="automation.serviceuserfco@philips.com.mq3" />
+		<Parameter key="ServiceFCOAdminPassword"
+			value="TWluZHRyZWVAMWM=" />
+
+		<Parameter key="ServiceFCOAdmin User"
+			value="ServiceFCOAdmin" />
+		<Parameter key="ServiceFCOAdmin2"
+			value="automation.serviceuserfco2@philips.com.mq3" />
+		<Parameter key="ServiceFCOAdmin2Password"
+			value="TWluZHRyZWVAMWM=" />
+
+		<Parameter key="Sk service User" value="sk serviceuser Mq3" />
+		<Parameter key="Skserviceuser"
+			value="skserviceuser1@philips.com.mq3 " />
+		<Parameter key="SKpassword" value="U1czMCQkdGh1Ng==" />
+
+		<Parameter key="Sweety service user"
+			value="Sweety Service user" />
+		<Parameter key="Sweetyserviceuser"
+			value="sweety.fse@mq3.com" />
+		<Parameter key="Sweetypassword" value="U1czMCQkdGh1Ng==" />
+
+		<Parameter key="Meena service user" value="Meena Tech1" />
+		<Parameter key="Meenaserviceuser"
+			value="partner.meena.su@philips.com.mq3" />
+		<Parameter key="MeenaServicepwd" value="U29uYXRhQDEyMzQ=" />
+
+		<Parameter key="Meena1 service user" value="Meena Tech2" />
+		<Parameter key="Meena1serviceuser"
+			value="partner.meena.su2@philips.com.mq3" />
+		<Parameter key="Meena1Servicepwd" value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="ServiceAgentNew User"
+			value="Lejo ServiceAgent" />
+		<Parameter key="ServiceAgentNew"
+			value="agentnew.lejo.emsmq3@philips.com" />
+		<Parameter key="ServiceAgentNewPassword"
+			value="QWN0aXZpdHlAMTIz" />
+
+		<Parameter key="ASP Technician" value="Auto ASP Technician" />
+		<Parameter key="ASPTechnician"
+			value="automation.asptechnician@philips.com.mq3" />
+		<Parameter key="ASPTechnicianPassword"
+			value="TWluZHRyZWVAMWM=" />
+
+		<Parameter key="ServiceAgentNew User"
+			value="Lejo ServiceAgent" />
+		<Parameter key="ServiceAgentNew"
+			value="agentnew.lejo.emsmq3@philips.com" />
+		<Parameter key="ServiceAgentNewPassword"
+			value="QWN0aXZpdHlAMTIz" />
+
+		<Parameter key="L1Technician User" value="L1Technician" />
+		<Parameter key="L1Technician"
+			value="l1.technician@philips.com" />
+		<Parameter key="L1TechnicianPassword"
+			value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="L2Technician User" value="L2 Technician" />
+		<Parameter key="L2Technician"
+			value="partner.servicesrinivas.chennupati@philips.com" />
+		<Parameter key="L2TechnicianPassword"
+			value="U29uYXRhQDEyMzQ=" />
+
+		<Parameter key="ServiceManager User"
+			value="Meena Service Manager" />
+		<Parameter key="serviceManager"
+			value="partner.meena.sm@philips.com.mq3" />
+		<Parameter key="ServiceManagerpassword"
+			value="TWluZHRyZWVAMWE=" />
+
+
+		<Parameter key="SM1 User" value="meena Service manager2" />
+		<Parameter key="SM1User"
+			value="partner.meena.sm2@philips.com" />
+		<Parameter key="SM1password" value="TWluZHRyZWVAMWE=" />
+
+		<Parameter key="Portal User" value="Portal User" />
+		<Parameter key="PortalUser"
+			value="tanveer.automation.mq3@philips.com" />
+		<Parameter key="PortalPassword" value="U29uYXRhQDIzNDU=" />
+
+		<Parameter key="Quote Admin User Name" value="Portal User" />
+		<Parameter key="QuoteAdminUser"
+			value="div_serviceuser@mq3.com" />
+		<Parameter key="QuoteAdminUserPassword"
+			value="ZGl2eVJAMTk5Ng==" />
+
+		<Parameter key="Automation Agent User"
+			value="Automation Agent User" />
+		<Parameter key="automationagentuserID"
+			value="automation.agent.user@philips.com" />
+		<Parameter key="automationagentuserPWD"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Agent Non Event" value="Auto Agent NonEvent" />
+		<Parameter key="AgentNonEventID"
+			value="auto.agent.nonevent@philips.com" />
+		<Parameter key="AgentNonEventPassword"
+			value="UGhpbGlwc0AxMjM=" />
+
+		<Parameter key="Automation Technician User"
+			value="Automation Technician User" />
+		<Parameter key="AutomationTechnicianUserID"
+			value="automation.technician.user@philips.com" />
+		<Parameter key="AutomationTechnicianUserPWD"
+			value="UGhpbGlwc0AxMjM=" />
+	</Environment>
+	<Environment name="MD4">
+		<Parameter key="salesforceUrl"
+			value="https://philipsb2bsc--emsmd4.my.salesforce.com/" />
+		<Parameter key="ITAdmin User" value="Automation ITAdmin" />
+		<Parameter key="ITAdmin"
+			value="partner.tanaveer.padeknoor@philips.com" />
+		<Parameter key="ITAdminPassword" value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="MasterDataAdmin User"
+			value="Automation MasterDataAdmin" />
+		<Parameter key="MasterDataAdmin"
+			value="automation.masterdataadmin@philips.com" />
+		<Parameter key="MasterDataAdminPassword"
+			value="U29uYXRhQDEyMw==" />
+
+		<Parameter key="ServiceAgent User"
+			value="Automation ServiceAgent" />
+		<Parameter key="ServiceAgent"
+			value="automation.serviceagent@philips.com" />
+		<Parameter key="ServiceAgentPassword"
+			value="U29uYXRhQDEyMw==" />
+
+
+
+
+	</Environment>
+
+	<Environment name="4MMD4">
+		<Parameter key="salesforceUrl"
+			value="https://test.salesforce.com/" />
+
+		<Parameter key="ServiceAgent User"
+			value="Automation ServiceAgent" />
+		<Parameter key="ServiceAgent"
+			value="shubhangiagent@philips.com" />
+		<Parameter key="ServiceAgentPassword"
+			value="QW5zaHUoMTIzNA==" />
+
+		<Parameter key="PortalUser" value="Portal User" />
+		<Parameter key="Portal" value="ramyaportal1@philips.com" />
+		<Parameter key="PortalPassword" value="TWluZHRyZWVAMWE=" />
+	</Environment>
+
+
+</Environments>
